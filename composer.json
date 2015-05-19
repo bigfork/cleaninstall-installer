@@ -1,0 +1,17 @@
+{
+    "name": "bigfork/cleaninstall-installer",
+    "description": "CleanInstall installer",
+    "autoload": {
+        "psr-4": {
+            "Bigfork\\CleanInstallInstaller\\Console\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~5.0",
+        "symfony/console": "~2.3",
+        "symfony/process": "~2.3"
+    },
+    "bin": [
+        "cleaninstall"
+    ]
+}
